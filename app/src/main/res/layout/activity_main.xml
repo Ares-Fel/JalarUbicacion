@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distrito :"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spnDistrito"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/distritos"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitud :"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <EditText
+        android:id="@+id/numLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:maxLength="20" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitud :"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/numLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:maxLength="20" />
+
+    <Button
+        android:id="@+id/btnManual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Posicion Manual"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/autoLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/autoLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnActual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Posicion Actual"
+        android:textSize="20sp" />
+
+</LinearLayout>

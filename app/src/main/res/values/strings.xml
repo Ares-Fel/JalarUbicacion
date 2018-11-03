@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">JalarUbicacion</string>
+    <string-array name="distritos">
+        <item>Alto Selva Alegre</item>
+        <item>Cayma</item>
+        <item>Cerro Colorado</item>
+        <item>Jacobo Hunter</item>
+        <item>JLByR</item>
+        <item>Mariano Melgar</item>
+        <item>Miraflores</item>
+        <item>Paucarpata</item>
+        <item>Sabandia</item>
+        <item>Sachaca</item>
+        <item>Socabaya</item>
+        <item>Tiabaya</item>
+        <item>Yanahuara</item>
+    </string-array>
+</resources>
